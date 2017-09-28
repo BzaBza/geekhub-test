@@ -44,7 +44,6 @@ aside>ul>li a {
     padding: 1em 2em 3em 4em;
     grid-column: 2;
     border: 2px solid white;
-    background: rgba(242,229,255,1);
 }
 footer{
     position: inherit;
