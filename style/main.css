@@ -1,0 +1,59 @@
+body {
+    font-family: Tahoma, serif ;
+    display: grid;
+    max-width: 1170px;
+    margin: auto;
+    min-height: 100%;
+}
+header {
+    display: grid;
+    border: 2px solid white;
+    grid-template-rows: 120px;
+    background: rgba(120,33,196,1);
+}
+#logo{
+    margin:0;
+    padding:0 0 0 3em;
+    display: grid;
+    text-align: left;
+    align-items: center;
+}
+menu{
+    margin:0;
+    padding:0 3em 0 0;
+    display: grid;
+    align-items: center;
+    grid-column: 2;
+    text-align: right;
+
+}
+main{
+    position: relative;
+    height: 49.7em;
+    display: grid;
+}
+aside{
+    width: 10em;
+    border: 2px solid white;
+    background: rgba(242,229,255,1);
+}
+aside>ul>li a {
+    text-decoration: none;
+}
+#content{
+    padding: 1em 2em 3em 4em;
+    grid-column: 2;
+    border: 2px solid white;
+    background: rgba(242,229,255,1);
+}
+footer{
+    position: inherit;
+    height: 4em;
+    display: grid;
+    grid-row: 3;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background: rgba(138,5,255,1);
+}
+
