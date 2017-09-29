@@ -25,6 +25,10 @@ header {
     text-align: left;
     align-items: center;
 }
+#logo>a{
+    text-decoration: none;
+    color: black;
+}
 
 main {
     font-size: 18px;
@@ -75,7 +79,7 @@ aside > ul :hover {
 footer {
     font-family: 'Germania One', cursive;
     position: inherit;
-    height: 5.5em;
+    height: 5.7em;
     display: grid;
     align-items: center;
     justify-content: center;
